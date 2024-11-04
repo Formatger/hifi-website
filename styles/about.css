@@ -1,0 +1,524 @@
+/*********************************************************/
+/*//////////////////////// PAGES ////////////////////////*/
+/*********************************************************/
+
+/*//////////////////////// MAIN PAGE /////////////////////*/
+
+/* .PreTitle {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+} */
+
+/*--------------- Hero Section ---------------*/
+
+#about-hero {
+  height: 460px;
+  overflow: hidden;
+}
+
+#about-hero .SideTxt {
+  width: 600px;
+  padding-right: 0px;
+}
+
+#about-hero .SideImg {
+  width: 600px;
+}
+
+.ImgBoxContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.ImgBoxWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-hero img {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/*--------------- #about Section ---------------*/
+
+.AboutContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutSideContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  padding: 30px 3%;
+}
+
+.AboutSideContent.Left .SideTxt {
+  margin-right: 6%;
+}
+.AboutSideContent.Right .SideTxt {
+  margin-left: 6%;
+}
+
+.AboutSideContent h4 span {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#about .SideTxt {
+  width: 50%;
+  height: auto;
+  border-left: 2px solid var(--green);
+  padding: 0;
+  padding-left: 20px;
+}
+
+#about .SideTxt p {
+  font-weight: 200;
+  letter-spacing: 0.03rem;
+}
+
+.AboutSub {
+  font-weight: 600;
+}
+
+/* .AboutSection .SideImg {
+  width: 50%;
+  height: auto;
+}
+
+.AboutSection .SideImg img {
+  width: 50%;
+  height: auto;
+} */
+
+.grad-line {
+  border: none;
+  height: 4px;
+  width: 2000px;
+  background: var(--green);
+  position: relative;
+  left: 0px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+/*--------------- Values Section ---------------*/
+
+#values {
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  /* background: linear-gradient(171deg, white 85%, var(--main) 30%); */
+}
+
+.ValuesSection {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.ValuesContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.ValuesCardsWrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.ValuesCards {
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+  /* margin: 50px 0 0 0; */
+
+}
+
+.ValuesCards.Blue {
+  display: flex;
+  /* gap: 30px; */
+  /* margin: 200px 0 170px 30px;   */
+}
+
+.ValuesCardWrap {
+  display: flex;
+  max-width: 460px;
+  border-radius: 25px;
+  /* border:1px solid red; */
+}
+
+.ValuesCardInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  padding: 40px;
+  
+}
+
+.ValuesCardTxt {
+  position: relative;
+  padding-left: 24px;
+  margin-left: 4px;
+  min-height: 220px;
+}
+
+.ValuesCardTxt::before {
+  content: "";
+  position: absolute; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 4px; 
+  background: var(--mainGradVert)
+}
+
+.ValuesCardTxt.Blue::before {
+  content: "";
+  position: absolute; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 4px; 
+  background: var(--mainGrad);
+}
+
+.ValuesCards img {
+  width: 38px;
+  height: 38px;
+  padding-bottom: 12px;
+  position: relative;
+  right: 12px;
+}
+
+.ValuesCards h5 {
+  padding-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.ValuesCards h6 {
+  padding-bottom: 16px;
+  margin: 0;
+  color: var(--dark);
+  font-weight: 300;
+}
+
+.ValuesCards p {
+  font-size: 1rem;
+}
+
+/*--------------- Team Section ---------------*/
+
+#team {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#team .SquareSection {
+  padding: 5%;
+}
+
+#team .SideTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  display: flex;
+  /* margin-left: 25%; */
+  z-index: 1;
+}
+
+#team .SideImg {
+  width: 50%;
+}
+
+#team .SideImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+#team .LogoGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 40px;
+}
+
+#team .LogoGroup img {
+  width: auto;
+  height: 16px;
+  padding: 3%;
+} 
+
+ /*--------------- Build Section ---------------*/
+
+#careers .AppBtn button:hover {
+  background: var(--green1);
+}
+
+ #careers {
+  background: var(--green);
+  min-height: 500px;
+ }
+
+ .CareersSection {
+  z-index: 1;
+  max-width: 1200px;
+ }
+ 
+ #careers .SideTxt {
+   color: var(--dark1);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 45%;
+ }
+
+ #careers p,
+ #careers h3 {
+  color: var(--dark1);
+}
+
+ /*--------------- Growth Section ---------------*/
+
+
+#growth .CardGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 3%;
+}
+
+#growth .Card {
+  background: var(--cream) !important;
+  max-width: 300px;
+  border-top: 6px solid var(--coal);
+  height: 280px;
+  border-radius: 10px;
+}
+
+.numbers {
+  font-size: 4.5rem !important;
+  line-height: 7rem !important;
+  margin-bottom: 4px;
+  font-weight: 100 !important;
+  color: var(--text3);
+}
+
+ /*--------------- Partner Section ---------------*/
+
+ .PartnerSection {
+  margin-bottom: 100px;
+ }
+ .PartnerWrap {
+  position: relative;
+  margin-left: 20%;
+ }
+
+.backed-line {
+  width: 3000px;
+  height: 4px;
+  background-color: var(--coal);
+  border: none;
+  position: absolute;
+  top: 60px;
+  left: -2570px;
+}
+
+.PartnerSection img {
+  height: 50px;
+  /* border: 1px solid red; */
+}
+
+/**************************************************************************************/
+/*//////////////////////////////// RESPONSIVE STYLES /////////////////////////////////*/
+/**************************************************************************************/
+
+@media (max-width: 1024px) {
+
+
+#about-hero {
+  height: auto;
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+#about-hero .SideTxt {
+  width: 90%;
+}
+
+#about-hero .SideImg {
+  width: 100%;
+}
+
+#about-hero .HeroContent .SideImg img{
+  width: 100%;
+  border-radius: 4%;
+}
+
+.ImgBoxContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ImgBoxWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImgBox {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.ImgBox img {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.AboutSideContent.Left .SideTxt {
+  margin-right: 0%;
+}
+.AboutSideContent.Right .SideTxt {
+  margin-left: 0%;
+}
+
+.AboutSideContent.Left .SideTxt,
+.AboutSideContent.Right .SideTxt {
+  margin-bottom: 50px !important;
+}
+
+  .ValuesCardInner {
+    padding: 20px;
+  }
+
+  .ValuesCards h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  #careers {
+    align-items: flex-start;
+    height: 900px;
+  }
+
+  #careers .SideTxt {
+    width: 100%;
+  }
+
+  #growth .CardGroup {
+    grid-template-columns: 1fr;
+    gap: 3%;
+  }
+
+  #team .SquareSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .ValuesContent {
+    flex-direction: column;
+  }
+  
+  .ValuesCardsWrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ValuesCards {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+  }
+
+  .ValuesCards.Blue {
+    gap: 0;
+    margin: 0;  
+  }
+
+  .ValuesCardInner {
+    padding: 20px 0;
+  }
+
+
+}
+
+@media (max-width: 840px) {
+
+.ImgBoxContainer:before,
+.ImgBoxContainer:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 14px; 
+  height: 100%;
+  pointer-events: none;
+}
+
+.ImgBoxContainer:before {
+  left: 0;
+  background: linear-gradient(to right, white 50%, transparent 50%);
+}
+
+.ImgBoxContainer:after {
+  right: 0;
+  background: linear-gradient(to left, white 50%, transparent 50%);
+}
+
+}
+
+@media (max-width: 640px) {
+
+  #team .LogoGroup {
+    flex-wrap: wrap;
+    height: max-content;
+  }
+  
+  #team .LogoGroup img {
+    padding: 10px 4vw;
+  } 
+}
+
+@media (max-width: 480px) {
+
+  #about-hero .ImgBox {
+    border-radius: 0px !important;
+  }
+  #about-hero .SideImg img {
+    border-radius: 6px !important;
+  }
+
+  #careers .SideTxt {
+    width: 100%;
+  }
+
+  #careers {
+    height: 800px;;
+  }
+}

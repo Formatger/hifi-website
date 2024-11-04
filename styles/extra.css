@@ -1,0 +1,752 @@
+/*********************************************************/
+/*//////////////////////// PAGES ////////////////////////*/
+/*********************************************************/
+
+/*//////////////////////// PRICING PAGE /////////////////////*/
+
+/*--------------- Pricing Main Section ---------------*/
+
+.PricingHeroWrap {
+  background: linear-gradient(170deg, white 60%, var(--main) 40%);
+}
+
+.PricingSection {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.PricingHeroContent h3 {
+  width: 90%;
+}
+
+.PricingHeroContent h5 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-bottom: 24px;
+  font-weight: 600 !important;
+  width: 900px;
+}
+
+.PricingHeroContent h6 {
+  padding-bottom: 24px;
+}
+
+.PricingTitle h6 {
+  display: none;
+}
+
+.PricingHeroContent .CardGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.PricingHeroContent .Card {
+border-top: none;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+/* height: max-content; */
+}
+
+.PricingHeroContent .CardTxt {
+display: flex;
+flex-direction: row;
+padding: 0;
+}
+
+.CardLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 20px 30px; */
+  margin: 10px 0;
+  flex-grow: 1;
+}
+
+.CardLeft > div {
+  padding: 20px 30px;
+}
+
+.CardRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-left: var(--bGrey);
+  flex-grow: 1;
+}
+
+.CardRight.Standard h3 {
+  margin-bottom: 4px;
+  text-align: center;
+  letter-spacing: -0.1rem;
+}
+
+.CardRight.Custom div {
+  background: var(--grey1);
+  width: 90%;
+  padding: 15px 0px;
+  margin: 6px 0;
+  border-radius: 10px;
+  font-size: 0.875rem;
+}
+
+/*--------------- Pricing Features Section ---------------*/
+
+.PricelistWrap {
+  background: var(--white);
+  position: relative;
+  z-index: 0;
+}
+
+.Pricelist .FeaturesCards {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 1;
+  gap: 0;
+  border: var(--bGrey);
+  border-left: 4px solid var(--green);
+  border-radius: 0px;
+}
+
+.Pricelist .RowListWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid var(--grey1);
+  padding: 30px;
+  min-height: 150px;
+  margin: 0;
+}
+
+.Pricelist h6 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Pricelist .RowListWrap.Inc {
+  border-left: var(--bGrey);
+  width: 40%;
+  background: var(--grey);
+}
+.Pricelist .RowListWrap.Price {
+  border-left: 2px solid var(--main);
+  width: 22%;
+  background: var(--grey1);
+
+}
+
+.Pricelist .RowListWrap.Price p,
+.Pricelist .RowListWrap.Price h6 {
+  padding-bottom: 0;
+}
+
+.Pricelist .RowListWrap.Price h6 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Pricelist .FeaturesCardWrap {
+  width: 30%;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.Pricelist .FeaturesCardInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  padding: 0;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+.Add {
+  color: var(--dark4);
+}
+
+.Pricelist .FeaturesCards img {
+  width: auto;
+  height: 40px;
+  padding: 16px 0;
+}
+
+.Pricelist .FeaturesCards h6 {
+  padding-bottom: 16px;
+}
+
+.Pricelist .FeaturesCards p {
+  font-size: 0.875rem;
+}
+
+/*--------------- Large Section ---------------*/
+
+.LargeSectionWrap {
+  background: linear-gradient(172deg, white 70%, var(--main) 30%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 4px solid var(--grey2);
+  height: 500px;
+}
+
+.LargeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LargeContent .SideTxt {
+  width: 60%;
+  margin-right: 15%;
+}
+
+.LargeContent .SideImg {
+  width: 40%;
+  position: relative;
+  left: 40px
+}
+
+/*//////////////////////// SUPPORTED ASSETS PAGE /////////////////////*/
+
+/*--------------- Assets Section ---------------*/
+
+.AssetsSectionWrap {
+  background: var(--white);
+}
+
+.AssetsSection {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.AssetsSection h1 {
+  margin-bottom: 48px;
+}
+
+/*---------------  Assets Table  ---------------*/
+
+.AssetList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  width: 100%;
+  margin-top: 40px;
+}
+
+.AssetList li {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding: 10px;
+  border: var(--bGrey);
+}
+
+.AssetList .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.AssetList .icon {
+  display: flex;
+  align-items: center;
+  margin: 0 40px 0 10px;
+}
+
+.AssetList .icon img {
+  width: 60px;
+  height: auto;
+}
+
+.AssetList .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AssetList h6 {
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.AssetList p {
+  padding: 0;
+  font-weight: 400;
+}
+
+.AssetList small {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.AssetList.Fiat .icon {
+  background: var(--grey2);
+  border-radius: 40px;
+  margin-right: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.AssetList.Fiat .icon img {
+  width: 35px;
+  height: auto;
+}
+
+/* TABS */
+
+.activeTab {
+  display: block;
+}
+.hiddenTab {
+  display: none;
+}
+
+.activeBtn {
+  font-weight: 300;
+  background: var(--green);
+  padding: 14px 24px;
+  min-width: 180px;
+  transition: all .2s;
+  border-radius: 12px;
+  background-color: var(--main);
+  border: 1px solid transparent;
+
+}
+.inactiveBtn {
+  font-weight: 300;
+  background: var(--grey);
+  padding: 14px 24px;
+  min-width: 180px;
+  transition: all .2s;
+  border-radius: 12px;
+  border: 1px solid var(--grey3);
+  color: var(--grey4);
+}
+
+/*---------------  FAQ ---------------*/
+
+#faq2 {
+background: var(--whiteGradTop);
+border-top: var(--bGrey);
+}
+
+.AssetsFaqSection {
+  max-width: 1200px ;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AssetsFaqSection h3 {
+  margin-bottom: 40px;
+}
+
+.AssetsFaqSection p {
+  margin-bottom: 10px;
+}
+
+/*---------------  LEGAL TERMS & PRIVACY ---------------*/
+
+
+.LegalHero {
+  max-width: 1200px;
+  margin: auto;
+  padding: var(--padding);
+  background: var(--white);
+}
+
+.SectionWrap.White {
+  border-top: 1px solid var(--grey2);
+  background: var(--grey);
+  padding: var(--padding);
+}
+
+.SectionWrap.Grey {
+  border-top: 1px solid var(--grey2); 
+  background: var(--grey1);
+}
+
+.LegalSection li {
+  padding: 0 10px ;
+  margin-left: 15px;
+  padding-bottom: 16px;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
+.legal-subtitle {
+  margin-bottom: 10px;
+}
+
+.legal-box {
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--grey2);
+  max-width: 700px;
+  background: var(--white);
+  margin-bottom: 30px;
+}
+
+.LegalSection h6 {
+  margin-bottom: 8px;
+}
+
+.LegalSection h4 {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  margin-bottom: 32px;
+}
+
+.LegalSection h3 {
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.LegalSection li {
+  font-weight: 200;
+  color: var(--text2);
+}
+
+.LegalSection ul {
+padding-left: 10px;
+}
+
+
+.extra-space h4 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.LegalSection p {
+  padding-bottom: 20px;
+}
+
+/*--------------- Start Section ---------------*/
+
+/* #start {
+  background: linear-gradient(110deg,#ffffff 55%, var(--coal) 45%);
+} */
+
+.StartSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.StartSection h3 {
+  font-weight: 150;
+}
+
+.StartContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.StartSection .SideTxt {
+  width: 45%;
+  margin-right: 5%;
+  min-width: 350px;
+}
+
+.StartSection .SideImg {
+  width: 50%;
+  max-width: 460px;
+}
+
+.RowList.Title {
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.RowList.Title svg {
+  margin-top: 6px;
+}
+
+.RowList.Title h6 {
+  font-weight: 300;
+  color: var(--text3);
+}
+
+.RowListTitle {
+  display: flex;
+  align-items: center;
+}
+
+.RowListTitle {
+  display: flex;
+  align-items: center;
+}
+
+.Calendly {
+  width: 100%; 
+}
+
+.calendly-inline-widget > iframe {
+  width: 100%;
+  min-width: 350px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 12px;
+  background: var(--white);
+  border: var(--bGrey);
+  box-shadow: var(--sh-l);
+}
+
+/**************************************************************************************/
+/*//////////////////////////////// RESPONSIVE STYLES /////////////////////////////////*/
+/**************************************************************************************/
+
+@media (max-width: 1200px) {
+
+  .PricingHeroContent .CardGroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .PricingHeroContent .CardWrap {
+    min-height: 350px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+
+  .AssetList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .inactiveBtn,
+  .activeBtn {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .Pricelist .FeaturesCards {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    gap: 0;
+  }
+
+  .LargeSectionWrap {
+    height: 400px;
+    min-height: 350px;
+   }
+
+  .LargeContent .SideTxt {
+    width: 100%;
+    margin-right: 0;
+  }
+  .LargeContent .SideImg {
+    width: 0%;
+  }
+
+  /* #start {
+    background: linear-gradient(170deg,#ffffff 60%, var(--coal) 45%);
+  } */
+
+  .StartSection .SideTxt {
+    width: 100%;
+    min-width: 0;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .PricingHeroContent h5 {
+    width: 100%;
+    font-size: 3.6vw;
+    line-height: 4.2vw;
+  }
+
+  .Pricelist .FeaturesCards {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    border-left: var(--bGrey);
+    border-top: 4px solid var(--green);
+
+  }
+
+  .Pricelist .FeaturesCardInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .Pricelist .FeaturesCardWrap {
+    width: 100%;
+    max-width: 100%;
+    min-height: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .Pricelist .RowListWrap {
+    height: fit-content;
+    margin: 0;
+  }
+
+  .Pricelist .RowListWrap.Inc {
+    border-top: var(--bGrey);
+    border-left: none;
+    background: var(--grey);
+    width: auto;
+    padding: 20px 30px 10px 30px;
+  }
+  .Pricelist .RowListWrap.Price {
+    border-top: 4px solid var(--main);
+    border-left: none;
+    background: var(--grey1);
+    width: auto;
+    padding: 20px 30px 10px 30px;
+  }
+
+  .Pricelist .FeaturesCardImg {
+    display: flex;
+    align-items: center;
+  }
+
+  .Pricelist .FeaturesCards img {
+    width: auto;
+    height: 40px;
+    padding-right: 16px;
+  }
+
+  .calendly-inline-widget > iframe {
+    width: 60vw;
+    max-width: 645px;
+    max-height: 650px;
+    height: 520px;
+  }
+
+  .Calendly {
+    width: auto; 
+  }
+  
+}
+
+@media (max-width: 720px) {
+
+  .Calendly {
+    border-radius: 0px;
+    }
+
+  .calendly-inline-widget > iframe {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .AssetList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .LargeSectionWrap {
+    height: max-content;
+    background: linear-gradient(172deg, white 80%, var(--main) 30%);
+  }
+
+  .calendly-inline-widget > iframe {
+    width: 80vw;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .PricingTitle h5 {
+    display: none;
+  }
+
+  .PricingTitle h6 {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+
+  .PricingHeroContent .CardTxt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+  }
+
+  .CardLeft {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 10px 0;
+    border-bottom: var(--bGrey);
+    border-right: none;
+  }
+
+  .CardRight {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .CardRight.Custom div {
+    background: var(--grey1);
+    width: 90%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    font-size: 0.875rem;
+  }
+
+  .LargeSectionWrap {
+    height: max-content;
+    min-height: 450px;
+    background: linear-gradient(172deg, white 80%, var(--main) 30%);
+  }
+   
+  #start {
+    position: relative;
+  }
+
+  .calendly-inline-widget > iframe {
+    width: 90vw;
+    min-width: 0;
+  }
+
+}
+

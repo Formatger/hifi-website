@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.hifibridge.com/</loc>
+      <lastmod>2024-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+    <url>
+      <loc>http://www.hifibridge.com/globalpay</loc>
+      <lastmod>2024-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+    <url>
+      <loc>http://www.hifibridge.com/about</loc>
+      <lastmod>2024-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>http://www.hifibridge.com/terms</loc>
+      <lastmod>2024-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>http://www.hifibridge.com/privacypolicy</loc>
+      <lastmod>2024-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+</urlset> 

@@ -1,0 +1,302 @@
+/*********************************************************/
+/*//////////////////////// HIFIPAY ////////////////////////*/
+/*********************************************************/
+
+/*//////////////////////// MAIN PAGE /////////////////////*/
+
+/*--------------- Power Section ---------------*/
+
+#power {
+  background: linear-gradient(171deg, white 70%, var(--main) 30%);
+  position: relative;
+  z-index: 2;
+  border-top: var(--bGrey);
+}
+
+.PowerSection {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.PowerContent {
+  display: flex;
+}
+
+.PowerSection .SideTxt {
+  width: 40%;
+  margin-right: 5%;
+  min-width: 350px;
+  margin-bottom: 100px;
+}
+
+.PowerSection .SideImg {
+  width: 60%;
+}
+
+.PowerSection .ImgGroup {
+  padding-bottom: 550px;
+}
+
+.PowerSection .SideImg img {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  width: 1000px;
+  height: auto;
+}
+
+.PowerSection .RowList p {
+  font-size: 0.8rem;
+  padding: 0;
+  line-height: 1rem;
+}
+
+
+.PowerSection .AppBtn button {
+box-shadow: var(--sh-l);
+}
+
+/*--------------- Pay Section ---------------*/
+
+#pay {
+    background: linear-gradient(250deg, 
+    white 55%, var(--green0) 48%);
+}
+
+.PaySection {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.PayContent {
+  display: flex;
+}
+
+.PaySection .SideTxt {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.PaySection .SideImg {
+  width: 50%;
+}
+
+.PaySection .ImgGroup {
+  padding-bottom: 550px;
+}
+
+.PaySection .SideImg img {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 700px;
+  height: auto;
+}
+
+
+
+/*--------------- Api Section ---------------*/
+
+/* .ApiSectionWrap {
+  background: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 50px 100px 100px 100px;
+ }
+  */
+/*  
+ .ApiContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ } */
+
+ #api {
+  border-top: var(--bGrey);
+  background: linear-gradient(130deg, white 60%, var(--main) 40%);
+  background: var(--main);
+}
+
+#api .FeatureBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ .ApiSection {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ 
+.ApiSection .SideTxt {
+  width: 50%;
+  margin-right: 15%;
+  color: var(--white);
+}
+
+.ApiSection h3 {
+  color: var(--white);
+}
+
+.ApiSection h5 {
+  color: var(--green1);
+}
+
+.ApiSection .SideImg {
+  width: 40%;
+}
+
+.ApiSection .SideImg img {
+  width: 140%;
+  height: auto;
+  filter: drop-shadow(var(--sh-img));
+}
+
+/*--------------- Support Section ---------------*/
+
+#support {
+  background: var(--triangle-green);
+}
+
+#faq1 {
+  border-top: 10px solid var(--green);
+
+}
+
+/**************************************************************************************/
+/*//////////////////////////////// RESPONSIVE STYLES /////////////////////////////////*/
+/**************************************************************************************/
+
+@media (max-width: 1280px) {
+  
+  /* .PowerSectionWrap {
+    background: linear-gradient(171deg, white 75%, var(--main) 25%);
+    min-height: 0;
+  } */
+
+  .PowerSection .SideImg img {
+    width: 150%;
+    top: 0px;
+
+  }
+
+  .PowerSection .ImgGroup {
+    padding-bottom: 100%;
+  }
+
+  .PaySectionWrap {
+    padding: 100px;
+  }
+
+  .PaySection .ImgGroup {
+    padding-bottom: 100%;
+  }
+
+  .PaySection .SideImg img {
+    width: 130%;
+    left: -10vw;
+  }
+
+  .ApiSection .SideImg {
+    width: 50%;
+  }
+  
+}
+  
+@media (max-width: 1024px) {
+
+  .Hifipay .Right .DevSlideWrap .SideTxt {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .Hifipay .Left .SideTxt,
+  .Hifipay .Right .SideTxt {
+    padding-bottom: 40px;
+  }
+  
+  .Hifipay .DevContent.Right .SideTxt {
+    padding-bottom: 0;
+  }
+
+  .Hifipay .Left .SideImg,
+  .Hifipay .Right .SideImg {
+    display: flex;
+  }
+
+  .Hifipay .Left .SideImg img,
+  .Hifipay .Right .SideImg img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+.PowerSection .SideImg {
+  padding-bottom: 70%;
+}
+
+.PowerSection .SideImg img {
+  width: 120% !important;
+  height: auto;
+}
+
+.PowerSection .Left .SideTxt {
+  padding-bottom: 20px;
+}
+
+.PowerSection .ImgGroup {
+  padding-bottom: 15%;
+}
+
+.PaySection .ImgGroup {
+  padding-bottom: 80%;
+}
+
+#pay {
+  background: linear-gradient(160deg, 
+  white 60%, var(--green0) 48%);
+}
+}
+
+@media (max-width: 640px) {
+
+  .PowerSection .SideImg img {
+    top: 30px;
+    left: 200px;
+    width: 280%;
+  }
+
+
+  
+}
+
+@media (max-width: 480px) {
+
+  /* .PowerSectionWrap {
+    background: linear-gradient(171deg, white 65%, var(--main) 30%);
+  } */
+
+  .PowerSection .SideTxt {
+    min-width: 0;
+  }
+
+  #api .FeatureBox {
+    margin-top: 20px;
+  }
+
+  #api .SideTxt {
+    padding-bottom: 10px;
+  }
+
+  /* .ApiSection .SideImg img {
+    width: 120%;
+    position: relative;
+    left: 10%;
+  } */
+  
+}
